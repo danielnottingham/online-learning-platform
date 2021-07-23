@@ -50,3 +50,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'bootstrap', '~> 5.0.0.beta2'
 gem 'sprockets-rails'
 gem 'jquery-rails'
+gem "haml-rails", "~> 2.0"
+
