@@ -28,11 +28,16 @@
       %form.d-flex
         %input.form-control.me-2{"aria-label" => "Search", :placeholder => "Search", :type => "search"}/
         %button.btn.btn-outline-success{:type => "submit"} Search
-%h1 StaticPages#landing_page
-= link_to privacy_policy_path, class: 'btn btn-lg btn-warning' do
+
+%h1 Home
+
+= link_to privacy_policy_path, class: 'btn btn-warning' do
   %i.fas.fa-file-word
   Privacy Policy
+
 %br/
-%button.btn.btn-primary{:type => "button"}
-  Notifications
-  %span.badge.bg-secondary 4
+%br/
+
+= link_to courses_path, class: 'btn btn-success' do
+  .fa.fa-book
+  Course
