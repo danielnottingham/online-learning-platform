@@ -76,6 +76,8 @@ GEM
     erubi (1.10.0)
     erubis (2.7.0)
     execjs (2.8.1)
+    faker (2.18.0)
+      i18n (>= 1.6, < 2)
     ffi (1.15.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -212,6 +214,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   bootstrap (~> 5.0.0.beta2)
   byebug
+  faker
   haml-rails (~> 2.0)
   jquery-rails
   listen (~> 3.3)

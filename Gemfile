@@ -52,4 +52,5 @@ gem 'sprockets-rails'
 gem 'jquery-rails'
 gem "haml-rails", "~> 2.0"
 gem 'simple_form'
+gem 'faker'
 
